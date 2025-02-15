@@ -1,0 +1,103 @@
+testset/output/*/history/
+testset/output/*/history/**
+
+# 忽略所有 .a 文件
+*.a
+
+# 但是，不要忽略 lib.a 即使你提到要忽略 .a 文件
+!lib.a
+
+# 忽略所有以 .o 结尾的文件，但不包括 foo.o
+*.o
+!foo.o
+
+# 忽略所有以 .so 结尾的文件
+*.so
+
+# 忽略所有以 .pyc 结尾的 Python 编译文件
+*.pyc
+
+# 忽略所有以 .pyo 结尾的优化过的 Python 字节码文件
+*.pyo
+
+# 忽略所有以 .orig 结尾的文件
+*~.nib
+*.orig
+
+# 忽略所有以 .swp 结尾的 Vim 交换文件
+*.swp
+
+# 忽略所有以 .bak 结尾的备份文件
+*.bak
+
+# 忽略所有以 .log 结尾的日志文件
+*.log
+
+# 忽略所有以 .lock 结尾的锁文件
+*.lock
+
+# 忽略所有的 .DS_Store 文件 (Mac OS X 的 Finder 使用)
+.DS_Store
+
+# 忽略所有 .idea/ 目录下的 IntelliJ IDEA 配置文件
+.idea/
+
+# 忽略所有 .vscode/ 目录下的 Visual Studio Code 配置文件
+.vscode/
+
+# 忽略所有 node_modules/ 目录（Node.js 项目）
+node_modules/
+
+# 忽略 npm 调试日志
+npm-debug.log
+
+# 忽略 Yarn 锁文件
+yarn.lock
+
+# 忽略 package-lock.json (如果你使用 Yarn 或者不需要这个文件)
+# package-lock.json
+
+# 忽略所有的 .env 文件，通常包含环境变量
+.env
+.env.local
+.env.*.local
+
+# 忽略所有 .venv/ 目录（Python 虚拟环境）
+.venv/
+venv/
+
+# 忽略 Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 忽略所有 .git/ 目录（Git 存储库数据）
+.git/
+
+# 忽略所有 build/ 和 dist/ 目录（构建目录）
+build/
+dist/
+
+# 忽略所有 .pytest_cache/ 目录（Pytest 缓存）
+.pytest_cache/
+
+# 忽略所有 __pycache__/ 目录（Python 缓存字节码）
+__pycache__/
+
+# 忽略所有 coverage/ 目录（代码覆盖率报告）
+coverage/
+
+# 忽略所有 docs/_build/ 目录（文档构建输出）
+docs/_build/
+
+# 忽略所有 .tox/ 目录（Tox 测试环境）
+.tox/
+
+# 忽略所有 .mypy_cache/ 目录（mypy 类型检查缓存）
+.mypy_cache/
+
+# 忽略所有 .eggs/ 目录（Python eggs）
+.eggs/
+*.egg-info/
+
+# 忽略所有 .cache/ 目录（通用缓存）
+.cache/
+.DS_Store
