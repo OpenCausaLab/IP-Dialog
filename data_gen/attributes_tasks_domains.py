@@ -281,9 +281,6 @@ def get_proper_attribue_group(attribute_dict=attribute_dict):
                                             health = "disabled"
                                         
                                         for hobby in attribute_dict["hobby"]:
-                    
-                                            if hobby == "cooking": 
-                                                continue
                         
                                             attribute_group_item = {
                                                 "age": age,
@@ -320,9 +317,6 @@ def get_proper_attribue_group(attribute_dict=attribute_dict):
                                             health = "disabled"
                                             
                                         for hobby in attribute_dict["hobby"]:
-                                            if hobby == "gaming":
-                                                continue
-                    
                                             attribute_group_item = {
                                                 "age": age,
                                                 "gender": gender,
