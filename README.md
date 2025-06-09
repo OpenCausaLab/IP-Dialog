@@ -1,4 +1,6 @@
 # IP-Dialog
+Official repository for paper: [IP-Dialog: Evaluating Implicit Personalization in Dialogue Systems with Synthetic Data](https://arxiv.org/abs/2506.02449).
+## Overview
   We propose a novel approach for automatic synthetic data generation and introduce the **I**mplicit **P**ersonalized **Dialog**ue (**IP-Dialog**) benchmark along with a training dataset, covering 10 tasks and 12 user attribute types. Additionally, we develop a systematic evaluation framework with four metrics to assess both attribute awareness and reasoning capabilities. We further propose five causal graphs to elucidate models' reasoning pathways during implicit personalization. 
   
   Below is an example where AI agents answer questions based on user histories. An AI agent without IP capability may provide unsuitable suggestions, as it fails to infer user identities from the history. In contrast, an IP-capable agent can deliver personalized answers by recognizing users' latent identities (such as elderly person or child).
